@@ -1,0 +1,14 @@
+#rotate{
+	transform: rotate(45deg);
+}
+
+#skew {
+	transform: skew(45deg);
+	background-color: blue
+}
+#all{
+	background-color: red;
+	transform:rotate(45deg);
+	transform:skew(135deg);
+
+}
