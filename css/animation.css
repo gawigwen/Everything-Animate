@@ -5,7 +5,8 @@
 
 #skew {
 	transform: skew(45deg);
-	background-color: blue
+	background-color: blue;
+	animation: skew .1s infinite;
 }
 #all{
 	background-color: yellow;
@@ -42,21 +43,50 @@ div {
     75%  {top: 50px}
     100% {top: 100px;}
 }
-@keyframes rotate {
-	0%{transform:rotate(36deg);}
-	10%{transform: rotate(72deg);}
-	20%{transform: rotate(108deg);}
-	30%{transform: rotate(144deg);}
-	40%{transform: rotate(170deg);}
-	50%{transform: rotate(206deg);}
-	60%{transform: rotate(242deg);}
-	70%{transform: rotate(278deg);}
-	80%{transform: rotate(314deg);}
-	90%{transform: rotate(340deg);}
+@keyframes rotate{
+	0%{transform:rotate(36deg);
+		background-color: red;}
+	10%{transform: rotate(72deg);
+		background-color: blue;}
+	20%{transform: rotate(108deg);
+		background-color: yellow;}
+	30%{transform: rotate(144deg);
+		background-color: orange;}
+	40%{transform: rotate(170deg);
+		background-color: pink;}
+	50%{transform: rotate(206deg);
+		background-color: purple;}
+	60%{transform: rotate(242deg);
+		background-color: red;}
+	70%{transform: rotate(278deg);
+		background-color: teal;}
+	80%{transform: rotate(314deg);
+		background-color: yellow;}
+	90%{transform: rotate(340deg);
+		background-color: blue;}
 	100%{transform: rotate(360deg);}
 	
 }
 #pseudo:hover{
 	background-color: blue;
 }
+@keyframes skew{
+	0%   {background-color:red;
+	 left:0px;
+	  top:0px;}
+    25%  {background-color:yellow; 
+    	left:200px; 
+    	top:0px;}
+    50%  {background-color:blue; 
+    	left:400px;
+    	 top:0px;}
+    75%  {background-color:green;
+     left:6000px;
+      top:0px;}
+    100% {background-color:red;
+     left:800px;
+      top:0px;}
+}
+
+
 
