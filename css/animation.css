@@ -46,8 +46,7 @@ div {
 @keyframes rotate{
 	0%{transform:rotate(36deg);
 		background-color: red;
-		top:0px;
-		left:200px;}
+		}
 	10%{transform: rotate(72deg);
 		background-color: blue;}
 	20%{transform: rotate(108deg);
@@ -56,8 +55,7 @@ div {
 		background-color: orange;}
 	40%{transform: rotate(170deg);
 		background-color: pink;
-		top:0px;
-		left:400px;}
+		}
 	50%{transform: rotate(206deg);
 		background-color: purple;}
 	60%{transform: rotate(242deg);
@@ -66,13 +64,11 @@ div {
 		background-color: teal;}
 	80%{transform: rotate(314deg);
 		background-color: yellow;
-		top:0px;
-		left: 600px}
+		}
 	90%{transform: rotate(340deg);
 		background-color: blue;}
 	100%{transform: rotate(360deg);
-		top:0px;
-		left:800px;}
+	}
 	
 }
 #pseudo:hover{
@@ -94,6 +90,9 @@ div {
     100% {background-color:red;
      left:800px;
       top:0px;}
+}
+body{
+	background-color: yellow;
 }
 
 
